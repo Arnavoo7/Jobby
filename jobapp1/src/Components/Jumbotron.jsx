@@ -35,7 +35,7 @@ const Jumbotron = () => {
       
       console.log(isCheckedY);
 
-      if(isCheckedY === false && locationFilter != ""){
+      if(isCheckedY === false && locationFilter !== ""){
         if(locationFilter.toLowerCase() === item.location.toLowerCase())
           return true;
       }
