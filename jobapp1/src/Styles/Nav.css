@@ -1,0 +1,9 @@
+/* Custom CSS for screens smaller than 640px (sm) */
+@media screen and (max-width: 639px) {
+    .adjust-nav {
+      height: 2rem;
+      font-size: 40px/* 20px */;
+      
+    }
+  }
+  

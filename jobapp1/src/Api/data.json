@@ -1,63 +1,68 @@
 [
     {
         "id": 1,
-        "title": "Software Developer",
+        "profile": "Associate Software Engineer",
+        "logo": "https://recruiting.ultipro.com/ROP1001ROPER/JobBoard/affe9737-065b-476c-8e45-591a0a0d942a/Styles/GetLargeHeaderLogo?brandId=ce1b0524-4f3e-407c-9a36-d797f3c9f66e&m=638005704041830000",
         "location": "Bengaluru",
-        "walkin": true
+        "walkin": false,
+        "date": "01-11-2023",
+        "link": "https://recruiting.ultipro.com/ROP1001ROPER/JobBoard/affe9737-065b-476c-8e45-591a0a0d942a/OpportunityDetail?opportunityId=5bbe3d10-e1ec-46e5-b264-b96f6aa2e591"
+
     },
     {
         "id": 2,
-        "title": "Software Developer",
-        "location": "Bengaluru",
-        "walkin": false
+        "profile": "Manual and Automation Tester",
+        "logo":"https://harman.wd3.myworkdayjobs.com/wday/cxs/harman/HARMAN/sidebarimage/2589685f149c011541c7addc26024f01",
+        "location": "PAN",
+        "walkin": false,
+        "date": "01-11-2023",
+        "link": "https://harman.wd3.myworkdayjobs.com/en-US/HARMAN/job/Bangalore---Karnataka-India---Manyata-Park-Outer-Ring-Road/Manual-and-Automation-Tester_R-30964-2023?locationCountry=c4f78be1a8f14da0ab49ce1162348a5e"
 
     },
     {
         "id": 3,
-        "title": "Software Developer",
-        "location": "Chennai",
-        "walkin": true
+        "profile": "Application Developer",
+        "logo":"https://www.165halsey.com/wp-content/uploads/logo-TATA.png",
+
+        "location": "Pune",
+        "walkin": false,
+        "date": "01-11-2023",
+        "link": "https://jobs.tatacommunications.com/job/Pune-Engineer-Software-&-Application-Development-Software-&-Application-Development-B2101_1/1069814300"
+
 
 
     },
     {
         "id": 4,
-        "title": "Software Developer",
-        "location": "Bengaluru",
-        "walkin": false
+        "profile": "Associate Software Engineer",
+        "logo":"https://s7-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/397/700/resized/Altera_Logo.gif?1696950167",
+        "location": "PAN",
+        "walkin": false,
+        "date": "01-11-2023",
+        "link": "https://boards.greenhouse.io/alteradigitalhealthindia/jobs/4068863007"
 
     },
     {
         "id": 5,
-        "title": "Software Developer",
-        "location": "Bengaluru",
-        "walkin": true
+        "profile": "Associate Software Engineer",
+        "logo":"https://xenonstack.jobs/assets/images/logoxe.svg",
+        "location": "Punjab",
+        "walkin": false,
+        "date": "01-11-2023",
+        "link": "https://xenonstack.jobs/jobs/associate-software-engineer/"
 
 
     },
     {
         "id": 6,
-        "title": "Software Developer",
-        "location": "Bengaluru",
-        "walkin": false
-
+        "profile": "Trainee (Apprentice)",
+        "logo":"https://c-8125-20200902-www-here-com.i.icims.com/themes/custom/here_com_theme/logo.svg",
+        "location": "Mumbai",
+        "walkin": false,
+        "date": "01-11-2023",
+        "link": "https://careers-here.icims.com/jobs/63749/trainee-%2525252528apprentice%2525252529/job?mode=job&iis=Job+Board&iisn=LinkedIn&mobile=false&width=1728&height=500&bga=true&needsRedirect=false&jan1offset=330&jun1offset=330"
         
-    },
-    {
-        "id": 7,
-        "title": "Software Developer",
-        "location": "Bengaluru",
-        "walkin": true
-
-
-    },
-    {
-        "id": 8,
-        "title": "Software Developer",
-        "location": "Bengaluru",
-        "walkin": true
-
-
     }
+
     
 ]
