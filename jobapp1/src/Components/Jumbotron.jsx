@@ -151,7 +151,7 @@ const Jumbotron = () => {
 
 
   return (
-    <section className='bg-gray-800 border rounded-xl flex flex-col m-1 p-4 h-fit '>
+    <section className='bg-gray-800 border rounded-xl flex flex-col m-1 p-4 h-fit mbj'>
         <div className='bg-black text-yellow-400 font-mono italic pl-11 pt-3 pb-3 pr-11 rounded-t-xl text-center '>
           <span>Hey! use me</span>
         </div>
@@ -160,9 +160,13 @@ const Jumbotron = () => {
           <label htmlFor='location' className="bg-black text-yellow-400 font-mono text-sm font-medium leading-6 text-start mb-3 p-2">Location: </label>
           <select className='w-52 border border-gray-700 rounded-md' onChange={handleLocationChange}>
             <option value={""} selected>Choose one. . .</option>
+            <option value={"PAN"} >PAN</option> 
             <option value={"Bengaluru"} >Bengaluru</option>
             <option value={"Chennai"} >Chennai</option>
-            <option value={"Hyderabad"} >Hyderabad</option> <input type='checkbox'  /> Yes
+            <option value={"Hyderabad"} >Hyderabad</option> 
+            <option value={"Pune"} >Pune</option> 
+            <option value={"Punjab"} >Punjab</option> 
+            <option value={"Mumbai"} >Mumbai</option> 
           </select>
 
           <label htmlFor='walk-in' className="bg-black text-yellow-400 font-mono leading-6 text-start mt-5 text-sm p-2">Walk-in: {" "}

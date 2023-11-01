@@ -1,0 +1,21 @@
+/* Apply styles for screens smaller than 640px */
+@media (max-width: 639px) {
+  .mbs {
+    flex-direction: column;
+  }
+
+  .mbb{
+    /* margin-left: 300px; */
+    /* margin-left: 50px; */
+    margin-bottom: 80px;
+  }
+
+  .mbj{
+    margin-left: 200px;
+    width: fit-content;
+  }
+
+  .mbt{
+    width: fit-content;
+  }
+}

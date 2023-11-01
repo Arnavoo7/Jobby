@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { dataContext } from '../Providers/TableDataProvider';
 import Jumbotron from './Jumbotron';
+import "../Styles/Home.css"
 
 const Home = () => {
 
@@ -14,9 +15,9 @@ const Home = () => {
 
 
   return (   
-    <div className='flex lg:flex-row md:flex-row mt-20 sm:flex-col sm:ml-5 sm:mr-14 '>
+    <div className='flex lg:flex-row md:flex-row mt-20 sm:flex-col sm:ml-5 sm:mr-14 mbs'>
     <Jumbotron />
-    <section className=' flex-col mt-2 lg:ml-20 sm:ml-4'>
+    <section className=' flex-col mt-2 lg:ml-20 sm:ml-5 mbt'>
 
       <table className='bg-white  justify-center items-center '>
         <thead className='bg-black text-yellow-400 font-mono italic'>
@@ -84,9 +85,9 @@ const Home = () => {
     
         <button onClick={() => {setCounter(counter - 1)}} className={
           counter < 1 ? 
-          ('bg-black text-yellow-400 transition-transform hover:scale-105 hover:bg-slate-100 hover:text-black font-mono italic rounded-xl m-6 p-2 pl-11 pr-11  ml-48 ') 
+          ('bg-black text-yellow-400 transition-transform hover:scale-105 hover:bg-slate-100 hover:text-black font-mono italic rounded-xl m-6 p-2 pl-11 pr-11  ml-48 mbb') 
           : 
-          ('bg-black text-yellow-400 transition-transform hover:scale-105 font-mono italic rounded-xl m-6 p-2 pl-11 pr-11  ml-48') }
+          ('bg-black text-yellow-400 transition-transform hover:scale-105 font-mono italic rounded-xl m-6 p-2 pl-11 pr-11  ml-48 ') }
           disabled={counter < 1}>Prev
         </button>
 
@@ -94,7 +95,7 @@ const Home = () => {
 
       <button onClick={() => {setCounter(counter + 1)}} className={
         (counter === Math.floor(data.length / 5)) ?
-        ('bg-black text-yellow-400 transition-transform hover:scale-105  hover:bg-slate-100 hover:text-black font-mono italic rounded-xl m-6 p-2 pl-11 pr-10 ml-42 ')
+        ('bg-black text-yellow-400 transition-transform hover:scale-105  hover:bg-slate-100 hover:text-black font-mono italic rounded-xl m-6 p-2 pl-11 pr-10 ml-42')
         :
         ('bg-black text-yellow-400 transition-transform hover:scale-105  font-mono italic rounded-xl m-6 p-2 pl-11 pr-10 ml-42') 
         }
