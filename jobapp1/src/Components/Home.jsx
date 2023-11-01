@@ -4,7 +4,7 @@ import Jumbotron from './Jumbotron';
 
 const Home = () => {
 
-  const{odata,data} = useContext(dataContext);
+  const{data} = useContext(dataContext);
 
   const[counter, setCounter] = useState(0);
   const rows = 5;
@@ -50,7 +50,7 @@ const Home = () => {
               {item.date}
             </td>
             <td className='border-r-2 border-b-2 border-gray-300 pl-5'>
-              <img src={item.logo} className='w-16'/>
+              <img src={item.logo} alt="company-logo" className='w-16'/>
             </td>
             <td className='border-r-2 border-b-2 border-gray-300 p-3  text-center'>
               {item.profile}
@@ -68,7 +68,7 @@ const Home = () => {
               {item.location}
             </td>
 
-          <a href={item.link}  target='_blank' >
+          <a href={item.link}  target='_blank' rel="noreferrer" >
             <td className='border-b-2 border-r-2 border-gray-300 p-6 text-center font-mono italic hover:bg-green-200'>
               Apply
             </td>

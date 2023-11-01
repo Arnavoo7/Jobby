@@ -19,7 +19,7 @@ const Media = () => {
 
   return (
     <>
-    <img onClick={handleClick} src={Music} className='w-10 ml-16 hover: cursor-pointer' title='Play some music'/>
+    <img onClick={handleClick} src={Music} alt="music-logo" className='w-10 ml-16 hover: cursor-pointer' title='Play some music'/>
     <audio ref={audioRef} controls style={{display: 'none'}}>
         <source src={kuttiStory} type='audio/mp3'/>
     </audio>

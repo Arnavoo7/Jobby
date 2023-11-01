@@ -21,6 +21,7 @@ const Navbar = () => {
       <span className="ml-4 text-2xl sm:text-xl md:text-2xl">JOBBY</span>
       <img
         src={bg === true ? night : light}
+        alt='toggle-light-dark'
         onClick={handleBg}
         className="w-10 ml-4 mr-8 border-2 border-white rounded-xl p-1 hover:cursor-pointer"
         style={{ flexShrink: 0 }}

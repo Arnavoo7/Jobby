@@ -1,6 +1,6 @@
 import React, {useContext, useEffect, useState} from 'react';
 import { dataContext } from '../Providers/TableDataProvider';
-import { format, sub,add, isBefore, isAfter, isSameDay, parse } from 'date-fns';
+import { format, sub, isBefore, isAfter, isSameDay, parse } from 'date-fns';
 
 const Jumbotron = () => {
   
