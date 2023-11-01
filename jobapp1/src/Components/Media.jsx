@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useRef } from 'react'
 import kuttiStory from "../audio/kuttiStory.mp3"
 import Music from "../images/musical.png"
 

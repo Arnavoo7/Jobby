@@ -45,10 +45,6 @@ const Jumbotron = () => {
     })
 
 
-  //Days later
-  // const OneDayLater = 
-
-
   const handleFilterButton = () => {
 
     
@@ -79,11 +75,6 @@ const Jumbotron = () => {
 
       console.log(isSameDay(itemDateObject, currentDate));
       
-      // if( (isBefore(itemDateObject, currentDate) && isAfter(itemDateObject, daysAgo)) )
-      // {
-      //   console.log(".........")
-      //   return true;
-      // }
 
       console.log("START")
       console.log(`isCheckedY: ${isCheckedY}`)
@@ -140,24 +131,8 @@ const Jumbotron = () => {
       //(ONE - END)
 
 
-      // console.log(locationFilter)
-      // if(isCheckedY === item.walkin && locationFilter === ""){
-      //   console.log("case 3")
-      //     return true;
-      // }
-      
-      
-
-      // if((locationFilter.toLowerCase() === item.location.toLowerCase()) && item.walkin === isCheckedY){
-      //   // console.log("1")
-      //   console.log("Case 4")
-      //   return true;
-      // }
-      // else{
-        // console.log("3")
         console.log("Case 5")
         return false;
-      // }
         
   })
 
@@ -204,14 +179,6 @@ const Jumbotron = () => {
             <option value={"15"} >15 days</option>
             <option value={"30"} >30 days</option>
           </select>
-
-{/* 
-          <label htmlFor='location' className="bg-black text-yellow-400 font-mono text-sm font-medium leading-6 text-start rounded-b-xl mt-3 mb-3 p-2">Job-Profile: </label>
-          <select className='w-52 border border-gray-700 rounded-md' onChange={handleDayChange}>
-            <option value={""} selected>Choose one. . .</option>
-            <option value={"design"} >UX/UI</option>
-            <option value={"Software"} >Software Developer</option>
-          </select> */}
 
 
           <button title="*Remember to choose options correctly" onClick={handleFilterButton} className='bg-black text-yellow-400 transition-transform hover:scale-105 font-mono italic rounded-xl m-6 mt-6 p-2 '>Filter Go...</button>

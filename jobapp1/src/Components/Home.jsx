@@ -1,8 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { dataContext } from '../Providers/TableDataProvider';
 import Jumbotron from './Jumbotron';
-import { NavLink, Link } from 'react-router-dom';
-import Media from './Media';
 
 const Home = () => {
 
