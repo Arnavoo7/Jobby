@@ -158,8 +158,8 @@ const Jumbotron = () => {
         <span className='text-white text-center mt-2'>{`Total Jobs: ${odata.length}`}</span>
         <div className='flex flex-col mt-5'>
           <label htmlFor='location' className="bg-black text-yellow-400 font-mono text-sm font-medium leading-6 text-start mb-3 p-2">Location: </label>
-          <select className='w-52 border border-gray-700 rounded-md' onChange={handleLocationChange}>
-            <option value={""} selected>Choose one. . .</option>
+          <select value={locationFilter} className='w-52 border border-gray-700 rounded-md' onChange={handleLocationChange}>
+            <option value={""} >Choose one...</option> 
             <option value={"PAN"} >PAN</option> 
             <option value={"Bengaluru"} >Bengaluru</option>
             <option value={"Chennai"} >Chennai</option>
@@ -175,8 +175,8 @@ const Jumbotron = () => {
 
 
           <label htmlFor='location' className="bg-black text-yellow-400 font-mono text-sm font-medium leading-6 text-start  mt-3 mb-2 p-2">Freshness: </label>
-          <select className='w-52 border border-gray-700 rounded-md' onChange={handleDayChange}>
-            <option value={""} selected>Choose one. . .</option>
+          <select value={dayBefore} className='w-52 border border-gray-700 rounded-md' onChange={handleDayChange}>
+            <option value={""} >Choose one...</option>
             <option value={"1"} >1 day</option>
             <option value={"3"} >3 days</option>
             <option value={"7"} >7 days</option>

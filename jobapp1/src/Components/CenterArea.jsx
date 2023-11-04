@@ -68,11 +68,12 @@ const CenterArea = () => {
           {item.location}
         </td>
 
-      <a href={item.link}  target='_blank' rel="noreferrer" >
         <td className='border-b-2 border-r-2 border-gray-300 p-6 text-center font-mono italic hover:bg-green-200'>
+          <a href={item.link}  target='_blank' rel="noreferrer" >
           Apply
+          </a>
         </td>
-      </a>
+      
 
       </tr>
     </tbody>
