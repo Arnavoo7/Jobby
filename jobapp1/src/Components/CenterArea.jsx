@@ -12,7 +12,6 @@ const CenterArea = () => {
     const indexE = indexS + rows;
     const pageData = data.slice(indexS, indexE);
   
-    const[modal, setModal] = useState(true);
   
   return (
 <div className='flex lg:flex-row md:flex-row mt-20 sm:flex-col sm:ml-5 sm:mr-14 mbs'>
