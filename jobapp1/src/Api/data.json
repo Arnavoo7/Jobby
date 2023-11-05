@@ -1,6 +1,60 @@
 [
 
     {
+        "id": 13,
+        "profile": "Student Intern Technical",
+        "logo": "https://tbcdn.talentbrew.com/company/599/gst-v1_0/img/logo/logo-intel-blue.svg",
+        "location": "Hyderabad",
+        "walkin": false,
+        "date": "06-11-2023",
+        "link": "https://jobs.intel.com/en/job/hyderabad/student-intern-technical/41147/55328905024"
+
+    },
+
+    {
+        "id": 12,
+        "profile": "QA Automation Engineer",
+        "logo": "https://cdn.phenompeople.com/CareerConnectResources/THTTRUUS/en_us/desktop/assets/images/v-1679912406654-header.png",
+        "location": "Bengaluru",
+        "walkin": false,
+        "date": "06-11-2023",
+        "link": "https://careers.thomsonreuters.com/us/en/job/JREQ170419/QA-Automation-Engineer"
+
+    },
+
+    {
+        "id": 11,
+        "profile": "Software Engineer - QA",
+        "logo": "https://static.vscdn.net/images/careers/demo/micron/Micron_logo_PCS.png",
+        "location": "Hyderabad",
+        "walkin": false,
+        "date": "06-11-2023",
+        "link": "https://careers.micron.com/careers/job/17455370"
+
+    },
+    {
+        "id": 10,
+        "profile": "Intern - General Business Management",
+        "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAAgCAMAAAAfbBf3AAAAVFBMVEX////8/f5cerWdsNJffbbH0ONif7f09vpmgrni5/FVdrOktNR8lcOlt9aZqs5yjL/M1ue1wdrZ3+uFnMesu9js7/aQpMtrhrvT2+u9yeBQcrF4kcIZPr4TAAACFElEQVRIie2V0ZarIAxFMQZQbFFEUOv//+cNomKd2k4f5y5Pu5SYhK0QI2OXLl36H5RlWRpkex2sGJKMg3mSekbl1o4yjJzJdTnmSWPZJUO3jEmuV9MMlCOT2UpmdqmmvC+jqhvkKy5XAKoLd1Xe4FF62KQ8r5P14MSpVPLmkrnHZmKX2X1q2z9F/pRFQb925qIiLiIKIegInk/RogOqmQvRABAIDXExii6L1u5TiRs9dFLDC26NRV2AzyK3bTnnphZg6Dy4hvPGIloyuJu56MOYdxTiad0XBXNsQmovcE6VzeIyE0L+gttjry3CsHDZ+uBbwB1AL8VBXOhiVeSAtzSJzMkx71WNmFKXfPQvuAUW3CBOv+bGcQchhblmFtf0UPKZ64bZNWhAe8J1BGq+5tZUz8UqceDKql894pTLTEGzuK+5RomlsMSBm4071zmXkGL8nktZk9ee/tNhnaUGUQeX1zc85zIj8Nbab/e3R8Gjx8Az11GpLq7xfH9pxmku61/Xs5yrJeaGZX3DNe+41LZETy9h+YmL1gRVFKvp3RfRNP6wzs4jbq53XDaFEug/csVSLiJ0IdpEXKvnUFfdp7oSIMYZRh1t6aTlRI16C6iUStxdf6aNLmt16MIlteXl3pMLbkdomFbnsX2W2nZuHrlO68TlWo8rd0wfoDJcc+nzFYPcPddxEsmrzWVecC9duvTX9A/KAiQsEOrqUwAAAABJRU5ErkJggg==",
+        "location": "Bengaluru",
+        "walkin": false,
+        "date": "06-11-2023",
+        "link": "https://careers.services.global.ntt/global/en/job/NTT1GLOBALR106352EXTERNALENGLOBAL/intern"
+
+    },
+
+    {
+        "id": 9,
+        "profile": "Associate System Engineer",
+        "logo": "https://cdn-static.findly.com/wp-content/uploads/sites/1432/2020/12/logo.png",
+        "location": "PAN",
+        "walkin": false,
+        "date": "06-11-2023",
+        "link": "https://careers.ibm.com/job/19344653/associate-system-engineer-remote/?codes=WEB_SEARCH_INDIA&sf183355623=1"
+
+    },
+
+    {
         "id": 8,
         "profile": "Devops Intern",
         "logo": "https://www.zerodhafundhouse.com/_next/static/media/logo.e8a702e4.png",

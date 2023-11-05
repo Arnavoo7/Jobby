@@ -1,4 +1,0 @@
-[build]
-  base = "jobapp1" # Set the base directory to the directory containing your source code and package.json
-  command = "npm run build" # Define the build command
-  publish = "build/" # Specify the publish directory where the built files are located
